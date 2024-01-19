@@ -108,6 +108,12 @@
   </v-container>
 </template>
 
+<style scoped>
+/* .v-container{
+  
+} */
+</style>
+
 <script setup>
 import { ref } from 'vue'
 import { useListStore } from '@/store/list'

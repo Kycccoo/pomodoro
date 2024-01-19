@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar>
       <v-container class="d-flex align-center">
-        <v-app-bar-title>番茄鐘</v-app-bar-title>
+        <v-app-bar-title>25：5</v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
         <v-btn prepend-icon="mdi-list-status" to="/list">事項</v-btn>
         <v-btn prepend-icon="mdi-cog" to="/settings">設定</v-btn>
@@ -26,6 +26,14 @@
     </v-main>
   </v-app>
 </template>
+
+<style scoped>
+#app .v-app-bar{
+  background: #121212;
+  opacity: 0.9;
+  color:#f5f5f7;
+}
+</style>
 
 <script setup>
 </script>
